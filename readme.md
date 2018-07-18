@@ -40,7 +40,8 @@ function multiply(a, b){
 
 ###### My Solution
 
+```
 function multiply(a, b){
     return a * b
 }
-
+```
