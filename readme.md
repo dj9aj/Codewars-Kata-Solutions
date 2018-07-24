@@ -4,6 +4,30 @@ A log of my codewars solutions so far. Hopefully I can refactor my code as I pro
 
 Here are my challenges so far - 
 
+## Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence
+
+> Replace all vowel to exclamation mark in the sentence. aeiouAEIOU is vowel.
+
+###### My Solution
+
+```
+function replace(s){
+    //coding and coding....
+    var vowels = ["a", "e", "i", "o", "u"];
+  
+    var strArr = s.split("");
+  
+    strArr.forEach((el, i) => {
+        if (vowels.includes(el.toLowerCase())){
+            strArr[i] = "!";
+        }
+    }); 	
+    
+    return strArr.join("");	
+
+}
+```
+
 ## Calculate average
 
 > Write function avg which calculates average of numbers in given list.
