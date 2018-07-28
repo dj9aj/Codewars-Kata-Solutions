@@ -4,6 +4,30 @@ A log of my codewars solutions so far. Hopefully I can refactor my code as I pro
 
 Here are my challenges so far - 
 
+## Find the smallest integer in the array
+
+> Given an array of integers your solution should find the smallest integer. For example:
+
+ - Given [34, 15, 88, 2] your solution will return 2
+ - Given [34, -345, -1, 100] your solution will return -345
+
+###### My Solution
+
+```
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+        let smallest = args[0];
+      
+        args.forEach(num => {
+            if (num < smallest) {
+                smallest = num;
+            }
+        });
+        return smallest;
+    }
+}
+```
+
 ## altERnaTIng cAsE <=> ALTerNAtiNG CaSe
 
 > Define String.prototype.toAlternatingCase (or a similar function/method such as to_alternating_case/toAlternatingCase/ToAlternatingCase in your selected language; see the initial solution for details) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase. 
