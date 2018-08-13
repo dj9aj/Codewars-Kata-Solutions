@@ -4,6 +4,18 @@ A log of my codewars solutions so far. Hopefully I can refactor my code as I pro
 
 Here are my challenges so far - 
 
+## Opposite number
+
+> Very simple, given a number, find its opposite. But can you do it in 1 line of code and without any conditionals?
+
+##### My Solution
+
+```
+function opposite(number) {
+    return(-number);
+}
+```
+
 ## Find the smallest integer in the array
 
 > Given an array of integers your solution should find the smallest integer. For example:
@@ -73,6 +85,18 @@ function replace(s){
     
     return strArr.join("");	
 
+}
+```
+
+## Convert a Number to a String!
+
+> What ways of achieving this do you know?
+
+##### My Solution
+
+```
+function numberToString(num) {
+    return num.toString();
 }
 ```
 
